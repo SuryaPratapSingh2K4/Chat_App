@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-// import 'package:flutter_signin_button/flutter_signin_button.dart';
+import 'package:flutter_signin_button/flutter_signin_button.dart';
 
 class Task1State extends StatelessWidget {
   
@@ -84,7 +84,7 @@ class Task1State extends StatelessWidget {
                   child: Text('Remember me'),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(left: 100),
+                  padding: const EdgeInsets.only(left: 135),
                   child: TextButton(
                       onPressed: () {},
                       child: Text(
@@ -113,8 +113,8 @@ class Task1State extends StatelessWidget {
             TextButton(onPressed: () {}, child: Text('Continue by using')),
             Column(
               children: [
-                // SignInButton(Buttons.Google, onPressed: () {}),
-                // SignInButton(Buttons.Facebook, onPressed: () {}),
+                SignInButton(Buttons.Google, onPressed: () {}),
+                 SignInButton(Buttons.Facebook, onPressed: () {}),
               ],
             ),
             // Column(
